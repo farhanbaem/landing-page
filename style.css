@@ -11,7 +11,7 @@ body {
     align-items: center;
     background-color: #162d44;
     padding: 20px 150px;
-    border: solid white;
+    
 }
 
 .logo a{
@@ -50,13 +50,13 @@ body {
     background-color: #162d44;
     padding: 40px 120px 100px;
     flex: 1;
-    border: solid white;
+    
 }
 
 /* left hero */
 .left-hero{
     flex-basis: 40%;
-    border: solid white;
+    
 
 }
 
@@ -162,5 +162,5 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #272727;
-    color: #ffffff;
+    color: #dbdbdb;
 }
