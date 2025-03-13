@@ -101,7 +101,6 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: solid black;
     justify-content: center;
     align-items: center;
 
@@ -127,7 +126,7 @@ body {
 
 .info {
     height: 180px;
-    width: 180px;
+    width: 80%;
     border: 3px solid #009FB7;
     border-radius: 20%;
     border: solid rgb(73, 72, 122);
@@ -143,15 +142,25 @@ body {
     align-items: center;   
     margin: 100px auto 200px auto;
     border: solid rgb(73, 72, 122);
-    border-radius: 25px;
-    background-color: #009FB7;
+    border-radius: 20px;
+    background-color: #2e4c50;
     box-shadow: #009FB7;
 }
 
 .word p{
-    color: #d7dfee;
+    color: #ffffff;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    color: #ffffff;
 }
