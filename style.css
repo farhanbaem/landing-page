@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+/* navbar section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #162d44;
+    padding: 20px 150px;
+    border: solid white;
+}
+
+.logo a{
+    color: #ecf0f1;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ecf0f1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    font-size: 18px;
+}
+
+/* hero section */
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #162d44;
+    padding: 40px 120px 100px;
+    flex: 1;
+    border: solid white;
+}
+
+/* left hero */
+.left-hero{
+    flex-basis: 40%;
+    border: solid white;
+
+}
+
+.left-hero h1{
+    font-size: 35px;
+    color: #e2f1d2;
+    font-weight: 800;
+}
+
+.left-hero p{
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.left-hero button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+/* right-hero */
+.right-hero{
+    flex-basis: auto;
+
+}
+
+.img-placeholder img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+    
+}
+
+
+.information {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* container */
+.info-container{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 20px;
+    margin: 50px 50px 10px;
+
+}
+
+.info {
+    height: 180px;
+    width: 180px;
+    border: 3px solid #009FB7;
+    border-radius: 20%;
+    border: solid rgb(73, 72, 122);
+
+}
+
+.word{
+    height: 200px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    margin: 100px auto 200px auto;
+    border: solid rgb(73, 72, 122);
+    border-radius: 25px;
+    background-color: #009FB7;
+    box-shadow: #009FB7;
+}
+
+.word p{
+    color: #d7dfee;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
